@@ -2,11 +2,9 @@
 
 ## L4S Support for AQMs in ns-3
 
-##### Student: [Bhaskar Kataria](https://gitlab.com/bhaskar792)
-##### Mentor: [Tom Henderson](https://gitlab.com/tomhenderson)
-##### Mentor: [Mohit Tahiliani](https://gitlab.com/mohittahiliani)
-##### Mentor: [Vivek jain](https://gitlab.com/Vivek-anand-jain)
-##### Mentor: [Ankit Deepak](https://gitlab.com/adeepkit01)
+#### Student: [Bhaskar Kataria](https://gitlab.com/bhaskar792)
+#### Mentor: [Tom Henderson](https://gitlab.com/tomhenderson), [Mohit Tahiliani](https://gitlab.com/mohittahiliani), [Vivek jain](https://gitlab.com/Vivek-anand-jain), [Ankit Deepak](https://gitlab.com/adeepkit01)
+
 
 ## Project Overview
 For GSoC 2020 with ns-3, I worked on Active Queue Management (AQM) and specifically on developing Low loss low latency and scalable throughput (L4S) models for various queue disciplines and most of the work is for the traffic-control module of ns-3. L4S is proposed to provide low latency for a particular type of traffic like video call, interactive gaming etc. With the help of the UseL4s attribute, ns-3 users can easily enable L4S and run tests. L4S can now be used with various queue disciplines like CoDel, Cobalt and PIE, and fair queueing versions FqCoDel, FqCobalt and FqPIE. With the help of these fair queue queue disciplines, seperate queues are created for packets based various parameters like source, destination, port etc, and because of these seperate queue and L4S, video call and gaming like traffic which does not take up much bandwidth can easily be delivered with low queue delays and hence improving the real time experience for such activities. With the help example provided or writing custom scripts, ns-3 users can easily work with various scenarios. For verification of basic behaviour, unit test cases were also added and for better understanding, proper documentation was added which includes the steps to run the tests. The project was divided into 3 phase and the phase-wise work done is available below
