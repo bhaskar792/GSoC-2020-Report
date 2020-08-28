@@ -1,9 +1,8 @@
 # GSoC 2020 Project Report
 
-## L4S Support for AQMs in ns-3
-
 #### Student: [Bhaskar Kataria](https://gitlab.com/bhaskar792)
 #### Mentors: [Tom Henderson](https://gitlab.com/tomhenderson), [Mohit Tahiliani](https://gitlab.com/mohittahiliani), [Vivek jain](https://gitlab.com/Vivek-anand-jain), [Ankit Deepak](https://gitlab.com/adeepkit01)
+#### Organisation: [ns-3 Network Simulator](https://www.nsnam.org/)
 
 
 ## Project Overview
