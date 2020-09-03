@@ -11,6 +11,9 @@ For GSoC 2020 with ns-3, I worked on Active Queue Management (AQM) and specifica
 ### Phase 1
 After discussing with mentors about the implementation, L4S mode for FqCoDel and CoDel queue disciplines was implemented, and while implementing L4S mode, the same packet getting marked twice issue in CoDel queue discipline was found and resolved. The first phase ended with writing an example script which demonstrates and verifies the L4S mode for FqCoDel queue discipline with TCP DCTCP and TCP Cubic
 #### [Download](https://gitlab.com/bhaskar792/ns-3-dev/-/tree/FqCoDel-L4S)
+#### Commits
+- [traffic-control: Add L4S extensions to FqCoDel and CoDel](https://gitlab.com/nsnam/ns-3-dev/-/commit/b12ac52109c83c1572c73080de21701222b8d7ef)
+- [traffic-control: (fixes #225) Do not mark packet twice within a CoDel queue](https://gitlab.com/nsnam/ns-3-dev/-/commit/3caa8e1ec762c93d279ab709e49a53511d675a9c)
 
 ### Phase 2
 While considering some other options which are available in the documentation, we finally chose to work on FqCobalt which is an essential part of the CAKE module, so in second phase FqCobalt was implemented with complete tests and documentation
