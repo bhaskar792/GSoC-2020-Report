@@ -31,13 +31,13 @@ After discussing with mentors about the implementation, L4S mode for FqCoDel and
 ### Phase 2
 While considering some other options which are available in the documentation, we finally chose to work on FqCobalt which is an essential part of the CAKE module, so in second phase FqCobalt was implemented with complete tests and documentation
 #### [Download](https://gitlab.com/bhaskar792/ns-3-dev/-/tree/FqCobalt)
-#### Merge Request
+#### Merge Requests
 - traffic-control: Added FqCobalt queue disc (GSoC 2020) [Merge Request](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/362)
 
 ### Phase 3
 The third phase included the implementation of FqPIE queue discipline with complete unit test cases and documentation. One minor bug related to multiple bottlenecks was also fixed during this phase, and the patch was provided for previous phases too. We also added Active/Inactive feature for PIE queue discipline. During the last week of GSoC, we started writing a document that describes the procedure and results of the test cases required to test the implementation of fair queueing models extensively.
 #### [Download](https://gitlab.com/bhaskar792/ns-3-dev/-/tree/FqPIE)
-#### Merge Request
+#### Merge Requests
 - traffic-control: CE packets treated as ECT1 when L4S mode is enabled for CoDel and FqCoDel queue disc [Merge Request](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/374)
 - traffic-control: FqPIE with L4S mode (GSoC 2020) [Merge Request](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/377)
 - traffic-control: Add Active/inactive feature (section 5.3 of RFC 8033) to PIE queue disc [Merge Request](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/379)
